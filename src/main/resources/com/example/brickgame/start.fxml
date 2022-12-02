@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.brickgame.HelloApplication">
+   <children>
+      <Button layoutX="168.0" layoutY="197.0" mnemonicParsing="false" onAction="#startButtonClick" prefHeight="106.0" prefWidth="262.0" style="-fx-background-color: orange;" text=" Start Game" textAlignment="CENTER">
+         <font>
+            <Font name="Gigi" size="31.0" />
+         </font>
+         <effect>
+            <Blend mode="LIGHTEN" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
